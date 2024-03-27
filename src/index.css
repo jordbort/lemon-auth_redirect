@@ -40,7 +40,6 @@ h1 {
 	background-color: #cfcf0e;
 	cursor: pointer;
 	transition: border-color 0.25s;
-	margin: 16px 0 0 0;
 }
 
 .button:hover {
@@ -85,7 +84,7 @@ h1 {
 	}
 
 	.message {
-		font-size: 1.5em;
+		font-size: 1.25em;
 		margin: 16px 0;
 	}
 
