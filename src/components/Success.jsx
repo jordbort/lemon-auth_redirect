@@ -3,7 +3,7 @@ export default function Success(props) {
 
     async function copyCode() {
         try { await navigator.clipboard.writeText(`!authorize ${code}`) }
-        catch (err) { console.error(`Failed to copy code:`, err) }
+        catch (err) { console.error(err) }
     }
 
     return (
