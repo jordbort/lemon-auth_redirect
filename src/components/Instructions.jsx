@@ -6,7 +6,7 @@ export default function Instructions() {
                 <input type='hidden' name='response_type' value='code' />
                 <input type='hidden' name='client_id' value='gdjv4q6wmt34j3ajx6w8wdgrj1oyax' />
                 <input type='hidden' name='redirect_uri' value='https://lemony-friend.netlify.app' />
-                <input type='hidden' name='scope' value='channel:manage:polls channel:read:polls moderator:manage:announcements moderator:manage:shoutouts' />
+                <input type='hidden' name='scope' value='channel:manage:polls channel:read:polls moderator:manage:announcements moderator:manage:shoutouts moderator:manage:banned_users' />
                 <input className='bold button' type='submit' value='Authorize' />
             </form>
         </>
