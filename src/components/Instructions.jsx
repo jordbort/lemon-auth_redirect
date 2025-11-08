@@ -1,8 +1,10 @@
 export default function Instructions() {
     const tokenScope = [
+        `channel:manage:broadcast`,
         `channel:manage:polls`,
         `channel:manage:vips`,
         `channel:read:subscriptions`,
+        `channel.hype_train.begin`,
         `moderator:manage:announcements`,
         `moderator:manage:shoutouts`,
         `moderator:read:followers`,
