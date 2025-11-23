@@ -6,6 +6,7 @@ export default function Instructions() {
         `channel:read:hype_train`,
         `channel:read:subscriptions`,
         `moderator:manage:announcements`,
+        `moderator:manage:banned_users`,
         `moderator:manage:shoutouts`,
         `moderator:read:followers`,
         `moderator:read:shoutouts`,
